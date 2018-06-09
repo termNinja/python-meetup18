@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block includes %}
+<style>
+body {
+    background-image: url('/static/css/poem-background.png');
+    background-size: cover;
+}
+</style>
+<script>
+$(document).ready(function () {
+    $('#navHome').addClass('active');
+})
+</script>
+
+{% endblock %}
+
+{% block content %}
+
+<div class='row align-items-center'>
+    <div class="col col-lg-2">
+    </div>
+    <div id='title_holder' class="">
+        <h1 class='align-middle brownColor text-center cyrillicStyle'>Robot serbian epic poem writer</h3>
+        <h4 class='text-center lightColor cyrillicStyle'>What would happen if we revived a sebian epic poem writer in a horrible robot body? </p>
+        <a class='btn btn-secondary' href='/sepRandom'>
+            Click to find out!
+        </a>
+    </div>
+    <div class="col col-lg-2">
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,89 @@
+body {
+    /*background-image: url('poem-background.png');*/
+    /*background: url('poem-background.png');*/
+    /*background: url(poem-background.png) no-repeat center center fixed;*/
+    /*background-size: cover;*/
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0,0,0,0.4);
+}
+
+@font-face {
+    font-family: epicCyrillic;
+    src: url('../fonts/CyrillicOld.ttf');
+}
+
+p {
+    font-family: epicCyrillic;
+    margin: 0;
+}
+
+.brownColor {
+    color: #c3a379;
+}
+
+.lightColor {
+    color: #dedede;
+}
+
+.cyrillicStyle {
+    font-family: epicCyrillic;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0,0,0,0.4);
+}
+
+.sep-song-holder {
+    background: rgba(100, 100, 100, 0.2);
+}
+
+.big-text {
+    font-size: 20px;
+}
+
+.blurred {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.v-center {
+    display: flex;
+    align-items: center;
+}
+
+#title_holder {
+    margin-top: 400px;
+}
+
+
+/* TRANSPARENT NAVBAR */
+.navbar-custom {
+    background-color: #ff5500;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.serbian-button {
+    background: url('button-inactive.png')
+    color: red;
+}

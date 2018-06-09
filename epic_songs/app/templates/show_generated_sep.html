@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<script>
+$(document).ready(function () {
+    $('#navSep').addClass('active');
+})
+</script>
+
+<br>
+<div class="row justify-content-md-center">
+    <div class="col col-lg-2">
+    </div>
+    <div class="col-md-auto">
+        <div>
+            {% for s in song %}
+            <span class='big-text'>{{ s }}</span>
+            <br>
+            {% endfor %}
+        </div>
+
+        <!--{% for s in song %}-->
+        <!--<span class='cyrillicStyle'>{{ s }}</span>-->
+        <!--<br>-->
+        <!--{% endfor %}-->
+        </div>
+    </div>
+    <div class="col col-lg-2">
+    </div>
+</div>
+
+{% endblock %}
